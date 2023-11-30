@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 16:34:53 by emohamed          #+#    #+#             */
-/*   Updated: 2023/11/30 17:20:29 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/11/30 17:24:50 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(int ac , char **av)
             ScalarConverter::convert(av[1]);
         
     }
-    catch(const std::exception& e)
+    catch(std::exception& e)
     {
         std::cerr << e.what() << std::endl;
     }
