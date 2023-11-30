@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 16:31:22 by emohamed          #+#    #+#             */
-/*   Updated: 2023/11/30 17:05:52 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/11/30 17:09:33 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 class ScalarConverter
 {
     public:
-        ScalarConverter(std::string const &str);
         ~ScalarConverter();
         ScalarConverter &operator=(ScalarConverter const &other);
         static void convert(std::string av);
