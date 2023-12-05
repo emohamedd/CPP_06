@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 17:09:16 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/05 17:43:54 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/05 17:48:53 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,5 +78,5 @@ void ScalarConverter::convert(std::string av)
             if (d != 0 ||  av == "0")
                 std::cout << "double: " << std::fixed << std::setprecision(1) << d << std::endl;
             else
-                std::cout << "double: "<<"impossible" << std::endl;
+                std::cout << "double: "<< "impossible" << std::endl;
 }
