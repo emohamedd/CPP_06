@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 17:09:16 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/04 16:15:59 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/05 17:43:54 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,19 +59,24 @@ void ScalarConverter::convert(std::string av)
         int i = str_to_int(av);
         float f = str_to_float(av);
         double d = str_to_double(av);
-        // std::cout << c << std::endl << i << std::endl << f << std::endl << d << std::endl;
-        if (c == 0 && i == 0 && f == 0 && d == 0)
-            throw std::invalid_argument("Invalid argument");
-        else
-        {
             std::cout << "char: ";
             if (c >= 32 && c <= 126)
                 std::cout  << c  << std::endl;
+            else if (c == 0 && av.length() == 1)
+                std::cout << "Non displayable" << std::endl;
             else
                 std::cout << "impossible" << std::endl;
             std::cout << "int: ";
+            if (i != 0 || av == "0")
                 std::cout  << i  << std::endl;
-            std::cout << "float: "  << f << "f" << std::endl;
-            std::cout << "double: "  << d << std::endl;
-        }
+            else
+                std::cout << "impossible" << std::endl;
+            if (f != 0 || av == "0")
+                std::cout << "float: " << std::fixed << std::setprecision(1) << f << "f" << std::endl;
+            else
+                std::cout << "float: " << "impossible" << std::endl;
+            if (d != 0 ||  av == "0")
+                std::cout << "double: " << std::fixed << std::setprecision(1) << d << std::endl;
+            else
+                std::cout << "double: "<<"impossible" << std::endl;
 }
