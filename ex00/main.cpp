@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 16:34:53 by emohamed          #+#    #+#             */
-/*   Updated: 2023/11/30 17:24:50 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/09 21:48:52 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ int main(int ac , char **av)
             throw std::invalid_argument("Invalid number of arguments");
         else
             ScalarConverter::convert(av[1]);
-        
     }
     catch(std::exception& e)
     {
