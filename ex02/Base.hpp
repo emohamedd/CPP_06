@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:28:47 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/10 18:46:50 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/15 00:27:56 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 class Base{
     public:
         virtual ~Base();
-    private:
         Base * generate(void);
         void identify(Base* p);
         void identify(Base& p);
