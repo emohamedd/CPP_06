@@ -6,15 +6,19 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:31:38 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/15 21:37:24 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/15 21:49:16 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once
+// #pragma once
+
+#ifndef C_HPP
+# define C_HPP
+
 
 #include "Base.hpp"
 
 class C : public Base {
-    public:
-    ~C();
 };
+
+#endif
