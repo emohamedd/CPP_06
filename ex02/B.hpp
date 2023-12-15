@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:31:35 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/05 18:31:51 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/15 21:37:17 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,6 @@
 #include "Base.hpp"
 
 class B : public Base{
-    
+    public:
+    ~B();
 };
