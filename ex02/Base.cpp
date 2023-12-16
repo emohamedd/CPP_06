@@ -6,12 +6,14 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:28:44 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/15 21:50:02 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/16 15:51:08 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Base.hpp"
-
+#include "Bases.hpp"
+// #include "A.hpp"
+// #include "B.hpp"
+// #include "C.hpp"
 Base::~Base()
 {
     std::cout << "Destructor called" << std::endl;
@@ -21,6 +23,7 @@ Base::~Base()
 Base* generate(void)
 {
   Base *b;
+  srand(time(NULL));
   int i = rand() % 3;
   if (i == 0)
     b = new A();

@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:30:30 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/15 21:48:42 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/16 15:38:44 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,10 @@
 #ifndef A_HPP
 # define A_HPP
 
-#include "Base.hpp"
+#include "Bases.hpp"
 
-class A : public Base{
+class A : public Base
+{
 };
 
 #endif

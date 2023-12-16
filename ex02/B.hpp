@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:31:35 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/15 21:49:02 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/16 15:38:40 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #ifndef B_HPP
 # define B_HPP
 
-#include "Base.hpp"
+#include "Bases.hpp"
 
 class B : public Base{
 

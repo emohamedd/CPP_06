@@ -6,7 +6,7 @@
 /*   By: emohamed <emohamed@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 18:31:38 by emohamed          #+#    #+#             */
-/*   Updated: 2023/12/15 21:49:16 by emohamed         ###   ########.fr       */
+/*   Updated: 2023/12/16 15:38:47 by emohamed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # define C_HPP
 
 
-#include "Base.hpp"
+#include "Bases.hpp"
 
 class C : public Base {
 };

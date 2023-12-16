@@ -2,11 +2,11 @@ CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = Base
+NAME = cpp
 
-SRCS = Base.cpp main.cpp
+SRCS = A.cpp B.cpp Base.cpp C.cpp main.cpp
 
-HEADERS = Base.hpp
+HEADERS = A.hpp B.hpp Bases.hpp C.hpp
 
 OBJS = $(SRCS:.cpp=.o)
 
